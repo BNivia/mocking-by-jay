@@ -3,6 +3,7 @@
 
 body {
   @include default;
+  background-color: #343a40;
 }
 
 header {
@@ -12,7 +13,6 @@ header {
   }
   font-size: 18px;
   background-color: #343a40;
-  padding: 5px;
   .container {
     @include flex-center();
     justify-content: space-between;
@@ -38,18 +38,21 @@ nav {
   }
 }
 
-.bio {
-  background-image: url("../assests/moses-vega-wufm6KrFyDc-unsplash.jpg");
-  background-size: cover;
-  @include montserrat();
-  padding: 200px;
-  display: flex;
-  align-items: left;
-
-  p {
-    color: #fff;
-    margin-left: 50px;
+.people {
+  img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top left;
+    height: 480px;
+    left: 0px;
+    top: 82px;
+  }
+  hr {
+    height: 20px;
+    color: $red;
+    background-color: $red;
     position: relative;
-    right: 200px;
+    bottom: 20px;
+    border: none;
   }
 }
