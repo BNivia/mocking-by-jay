@@ -1,0 +1,75 @@
+/*colours*/
+/*colours*/
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Bebas Neue", cursive;
+}
+
+header {
+  font-size: 18px;
+  background-color: #343a40;
+  padding: 5px;
+}
+
+header h1 {
+  color: #d90429;
+  margin-left: 10px;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header li {
+  display: inline;
+  list-style-type: none;
+  padding-left: 8px;
+}
+
+nav {
+  margin-right: 10px;
+}
+
+nav a {
+  color: #8d99ae;
+  padding: 14px 10px;
+}
+
+nav a:link {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #000000;
+}
+
+.bio {
+  background-image: url("../assests/moses-vega-wufm6KrFyDc-unsplash.jpg");
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.bio p {
+  color: #fff;
+  margin-left: 50px;
+  position: relative;
+  right: 200px;
+}
+/*# sourceMappingURL=styles.css.map */

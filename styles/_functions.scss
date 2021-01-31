@@ -1,0 +1,17 @@
+@import "./vars";
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin default {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Bebas Neue", cursive;
+}
+
+@mixin montserrat {
+  font-family: $montserrat;
+  font-weight: bold;
+}
